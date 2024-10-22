@@ -1,0 +1,122 @@
+<style>
+        body {
+            background-color: #f0f8ff; /* Fondo azul claro suave */
+            color: #2f4f4f; /* Texto gris oscuro */
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #4682b4; /* Azul medio */
+            text-align: center;
+        }
+
+        h2 {
+            color: #2e8b57; /* Verde para equilibrio y salud */
+            text-align: center;
+        }
+
+        h3 {
+            color: #6a5acd; /* Lavanda para calma */
+        }
+
+        p, li {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #556b2f;
+            background-color: #e6ffe6;
+            padding: 10px;
+            border-left: 5px solid #2e8b57;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4682b4;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+
+        form {
+            background-color: #fffaf0; /* Fondo amarillo claro */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        button {
+            background-color: #2e8b57; /* Verde */
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #4682b4; /* Hover azul más claro */
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        /* Estilos generales para pantallas grandes */
+        @media (max-width: 768px) {
+            h1, h2, h3 {
+                font-size: 1.2em;
+                text-align: center;
+            }
+
+            p, li {
+                font-size: 14px;
+                line-height: 1.4;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            table {
+                width: 100%;
+            }
+
+            form {
+                padding: 15px;
+            }
+        }
+    </style>
